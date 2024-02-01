@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body >
-    <h1 class="List">To Do List</h1>
-    <div class="every-title">
+    <form id="login-form" class="hidden">
+      <input type="text" 
+      placeholder="당신의 이름은 무엇인가요?" 
+      required 
+      maxlength="10" />
+      <input type="submit" value="접속하기">
+    </form>
+
+    <h1 id="list" class="List hidden">To Do List</h1>
+    <div id="every" class="every-title hidden">
       <div class="left-title">
-        <div>인삿말</div>
-        <div>
-          <img src="" alt="" />
+        <div id="greeting" class="hidden">인삿말</div>
+        <div class="quote">
+          <span></span>
+          <span></span>
         </div>
       </div>
       <div class="main-title">
@@ -34,5 +43,7 @@
 
     <script src="./js/clock.js"></script>
     <script src="./js/D-day.js"></script>
+    <script src="./js/random.js"></script>
+    <script src="./js/login.js"></script>
   </body>
 </html>
