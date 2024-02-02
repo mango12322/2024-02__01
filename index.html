@@ -18,14 +18,17 @@
     <h1 id="list" class="List hidden">To Do List</h1>
     <div id="every" class="every-title hidden">
       <div class="left-title">
-        <div id="greeting" class="hidden">인삿말</div>
+        <div id="greeting" class="hidden"></div>
         <div class="quote">
           <span></span>
           <span></span>
         </div>
       </div>
       <div class="main-title">
-        <div>오늘의 업무</div>
+        <form id="todo-form">
+          <input type="text" placeholder="할일을 적어주세요!!">
+        </form>
+        <ul id="todo-list"></ul>
       </div>
       <div class="right-title">
         <div class="right-title__column">
@@ -45,5 +48,6 @@
     <script src="./js/D-day.js"></script>
     <script src="./js/random.js"></script>
     <script src="./js/login.js"></script>
+    <script src="./js/toDo.js"></script>
   </body>
 </html>
