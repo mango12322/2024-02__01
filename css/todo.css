@@ -18,5 +18,9 @@
 }
 
 #todo-list > li {
-    margin: 5px;
+    margin: 5px 0px;
+}
+
+#todo-list > li > span {
+    margin-right: 6px;
 }
