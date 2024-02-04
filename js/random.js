@@ -50,3 +50,15 @@ const nowQuote = quotes[Math.floor(Math.random() * quotes.length)];
 quote.innerText = nowQuote.quote;
 author.innerText = nowQuote.author;
 
+
+const colors = [
+    "#CAC5AD",
+    "#ece6c8",
+    "#948e6b",
+    "#D4D8D9",
+    "#E5CFA0",
+];
+
+const nowColor1 = colors[Math.floor(Math.random() * colors.length)];
+const nowColor2 = colors[Math.floor(Math.random() * colors.length)];
+document.body.style.background = `linear-gradient(to right, ${nowColor1},${nowColor2})`;

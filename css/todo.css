@@ -1,0 +1,22 @@
+#todo-form > input {
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+    color: #C8A391;
+}
+
+#todo-form > input::placeholder {
+    color: #C8A391;
+}
+
+#todo-list {
+    font-size: 17px;
+    padding: 0;
+    color: #C8A391;
+    font-weight: 800;
+}
+
+#todo-list > li {
+    margin: 5px;
+}

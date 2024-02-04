@@ -21,13 +21,12 @@
 .main-title,
 .right-title {
     width: 33%;
-    border: 1px solid #C8A391;
+    border: 2px solid #C8A391;
     border-radius: 15px;
     margin: 15px;
 }
 
 .right-title__column {
-    border: 1px solid #C8A391;
     border-radius: 10px;
     margin: 20px;
 }
@@ -41,6 +40,7 @@
 
 .main-title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -89,8 +89,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #C8A391;
-    border-radius: 10px;
+    margin-top: 50px;
 }
 
 .quote span:first-child {
@@ -99,6 +98,13 @@
 }
 
 .quote span:last-child {
+    color: #C8A391;
+}
+
+#greeting {
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 900;
     color: #C8A391;
 }
 
