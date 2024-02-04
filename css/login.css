@@ -1,13 +1,16 @@
 #login-form {
     width: 100%;
     height: 100%;
+}
+
+.login_form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#login-form > input {
+.login_form > input {
     margin-top: 170px;
     font-size: 50px;
     font-weight: 800;
@@ -15,11 +18,11 @@
     border-radius: 6px;
 }
 
-#login-form > input::placeholder{
+.login_form > input::placeholder{
     color: #C8A391
 }
 
-#login-form > input[type="submit"] {
+.login_form > input[type="submit"] {
     color: #fff;
     font-size: 30px;
     background-color: #C8A391;
